@@ -1,0 +1,188 @@
+html {
+    background: #ffffff;
+    font-family: 'Shippori Mincho B1', serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    a {
+        color:#444;
+        text-decoration: none;
+        }
+    
+        p {
+            /* 水平方向の中央揃え */
+            text-align: center;
+    }
+
+header{
+    background: #e0e0e0;
+    position: absolute; /* ヘッダーを固定する */
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    height: 90px; /* ヘッダーの高さを指定する */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    margin: 0px; /* 外側の余白を指定する */
+    padding: 3px; /* ヘッダーの余白を指定する(上下左右) */
+
+    color: #000000; /* フォントの色を指定する */
+    z-index: 3;
+}
+
+.header-list li {
+    color: #000;
+    list-style: none;
+    float: left;
+    padding: 20px 10px;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+.header-logo {
+    font-size: 20px;
+    float: left;
+    padding: 20px 40px;
+    height: 30px;
+    }
+
+
+body{
+    width:50%;
+margin: auto;
+padding-top: 10px;
+padding-left: 5vw;
+padding-right: 5vw;
+align-items: center;
+text-align: left;
+}
+
+.title1{
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.login1{
+    border: 5px solid #273845;
+    border-radius: 10px;
+    top: 350px;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+    background-color: #ffffff;
+}
+
+.dialoguefield{
+
+flex: auto;
+align-items: center;
+text-align: center;
+
+}
+
+h3{
+
+    font-size: small;
+
+}
+
+div.radius1 {
+    border: 5px solid #273845;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+    z-index: 5;
+}
+
+.caption{
+
+    font-family: Noto sans JP;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 20;
+    line-height: normal;
+
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+
+.footer01 {
+    position: static; /* ヘッダーを固定する */
+    bottom: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    height: 100px; /* ヘッダーの高さを指定する */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    margin: 0px; /* 外側の余白を指定する */
+    padding: 3px; /* ヘッダーの余白を指定する(上下左右) */
+    font-family: Noto Sans JP;
+    color: #ffffff;
+    background: #273845;
+    padding: 35px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .footer01 a {
+    color: #ffffff;
+    font-size: small;
+    text-decoration: none;
+    }
+    .footer01 a:hover {
+    text-decoration: underline;
+    }
+    .footer01 .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .footer01 .menu li {
+    margin: 0;
+    padding: 0 20px 0 0;
+    }
+    .footer01 .copyright {
+    margin: 0;
+    padding: 20px 0 0 0;
+    }
+    
